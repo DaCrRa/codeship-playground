@@ -1,0 +1,8 @@
+app:
+  image: ubuntu:16.04
+  environment:
+    SECRET_TOKEN: abcdefghij
+    REDIS_ADDRESS: redis://redis:6379
+    RAILS_ENV: test
+    DATABASE_HOST: postgresql
+  cached: true
