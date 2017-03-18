@@ -2,3 +2,5 @@
   steps:
   - service: app
     command: cat /etc/os-release
+  - service: app
+    command: env
